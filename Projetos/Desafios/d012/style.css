@@ -54,23 +54,76 @@ section > p {
     font-size: 3.5vw;
 }
 
-section#s1 {
+.normal {
     background-color: white;
-    padding: 70px 0px 100px 30px;
+    padding: 70px 0px 150px 30px;
+
 }
 
-section#s2 {
+.imagem {
     background-color: white;
-    background-image: url("imagens/background001.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: right center;
+
     padding: 70px 0px 100px 30px;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459); 
 }
 
-section#s2 > p {
-    width: 40vw;
+section#img1 {
+    background-image: url("imagens/background001.jpg");
+
+
+}
+
+section#img2 {
+    background-image: url("imagens/background002.jpg");
+
+}
+
+#img1 > p {
+    width: 41vw;
     background-color: rgba(0, 0, 0, 0.39);
 
     color: white;
+
+}
+
+#img2 > p {
+    width: 42vw;
+    background-color: rgba(0, 0, 0, 0.39);
+
+    color: white;
+    
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+
+}
+
+footer > p {
+    color: white;
+
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+
+    text-align: center;
+
+}
+
+footer > p > a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+
 }
